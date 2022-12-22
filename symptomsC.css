@@ -1,0 +1,140 @@
+body{
+    height: 2900px;
+    font-family:cursive;
+   /* background: repeating-linear-gradient(-45deg,rgb(255, 237, 133) 0%, rgb(89, 223, 247) 50% ,rgb(255, 154, 171) 100%);*/
+    background-color:white;
+    background-image: linear-gradient(45deg, #17695c 25.56%, #fffed4 25.56%, #fffed4 40%, #206b53 30%, #206b53 75.56%, #fffed4 75.56%, #fffed4 100%);
+
+}
+h1.f {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+h2.sud {
+    color:white ;
+}
+h1.fa {
+    color:white ;  
+}
+h1.ss {
+    position: absolute;
+    left:300px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img.g {
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    left:400px;
+}
+img.t {
+    height: 60px;
+    width: 220px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    z-index: 2;
+    animation-duration: 3s;
+    animation-name: ta;
+    animation-iteration-count: infinite;
+}
+@keyframes ta {
+    0% {
+        left: 700px;
+    }
+    100% {
+        left: 586px;
+    }
+}
+.b {
+    height: 20px;
+    width: 50px;
+    background-color:white;
+    position: absolute;
+    top: 365px;
+    left: 815px;
+    z-index: 3;
+    animation-duration: 3s;
+    animation-name: ba;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ba {
+    0% {
+        left: 815px;
+    }
+    100% {
+        left: 730px;
+        background-color: transparent;
+    }
+}
+img.d {
+    display: inline;
+    left:450px;
+    position: absolute;
+    top:600px;
+    height: 200px;
+    width: 250px;
+}
+img.tired {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left:600px;
+    top:1000px;
+}
+.slider {
+    overflow: hidden;
+    height: 300px;
+}
+.slider figure div {
+    float: left;
+    width:13%;
+}
+.slider figure img {
+    width: 70%;
+    float: left;
+}
+.slider figure {
+    position: relative;
+    width:200%;
+    left: 0;
+    animation: 20s a infinite;
+}
+
+@keyframes a {
+    0%{
+        left: 0%;
+
+    }
+    25% {
+        left: -50%;
+    }
+    50% {
+        left: -100%;
+    }
+    75% {
+        left: -150%;
+    }
+    100% {
+        left: -200%;
+    }
+    
+}
+img.ds {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left:600px;
+    top:2000px;
+
+}
+img.cp {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left:700px;
+    top:2300px;
+}
