@@ -1,0 +1,568 @@
+body {
+   /* background: radial-gradient(rgb(208, 232, 240) 0% 20%,rgb(181, 215, 231) 20% 40%,rgb(90, 202, 247)40% 60%,rgb(43, 164, 245)60% 80%,rgb(11, 154, 236)80% 100%);
+   background: radial-gradient(rgb(178, 240, 255) 0% 20%,rgb(255, 254, 188) 20% 40%,rgb(171, 231, 255)40% 60%,rgb(255, 244, 180)60% 80%,rgb(163, 221, 255)80% 100%);*/
+  /*background: radial-gradient(rgb(240, 232, 217) 0% 20%,rgb(236, 240, 189) 20% 40%,rgb(255, 235, 169)40% 60%,rgb(255, 232, 199)60% 80%,rgb(255, 245, 200)80% 100%);*/
+  background-image:radial-gradient(rgb(203, 144, 243),rgb(124, 6, 124));
+  background-color:rgb(243, 192, 248);
+   height: 2000px;
+    
+}
+h1 {
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1.r {
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1.i {
+    color:rgb(255, 244, 147);
+    size:3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1.hho {
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1.dif {
+    color:rgb(255, 246, 164);
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c {
+    width:70px;
+    height:70px;
+    background:rgb(223, 92, 92);
+    border-radius:100%;
+    left:400px;
+    position: absolute;
+    top: 480px;
+}
+#l {
+    position: absolute;
+    left:400px;
+    top:420px;
+    animation-duration: 3s;
+    animation-name: at;
+    animation-iteration-count: infinite;
+
+}
+@keyframes at {
+    0% {
+        left:10px;
+    }
+    100% {
+        left:400px;
+    }
+}
+
+.ca {
+    width:70px;
+    height:70px;
+    background:teal;
+    border-radius:100%;
+    left:500px;
+    top:400px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-name: e;
+    animation-iteration-count: infinite;
+}
+@keyframes e {
+    0% {
+        background-color:teal;
+    }
+    60% {
+        background-color:teal;  
+    }
+    100% {
+        background-color:rgb(223, 92, 92);;
+    }
+}
+
+#ll {
+    position: absolute;
+    left:400px;
+    top:440px;
+    animation-duration: 3s;
+    animation-name: b;
+    animation-iteration-count: infinite;
+}
+@keyframes b {
+    0% {
+        left:10px;
+    }
+    100% {
+        left:400px;
+    }
+}
+
+.cb {
+    width:70px;
+    height:70px;
+    background:teal;
+    border-radius:100%;
+    left:500px;
+    top:530px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-name: f;
+    animation-iteration-count: infinite;
+}
+@keyframes f {
+    0% {
+        background-color:teal;
+    }
+    60% {
+        background-color:teal;  
+    }
+    100% {
+        background-color:rgb(223, 92, 92);
+    }
+}
+.cc {
+    width:30px;
+    height:60px;
+    background:teal;
+    border-bottom-left-radius:100px;
+  border-top-left-radius: 100px;
+    left:580px;
+    top:480px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-name: g;
+    animation-iteration-count: infinite;
+}
+@keyframes g {
+    0% {
+        background-color:teal;
+    }
+    60% {
+        background-color:teal;  
+    }
+    100% {
+        background-color:rgb(223, 92, 92);
+    }
+}
+.ba {
+    width:70px;
+    height:70px;
+    background:rgb(223, 92, 92);
+    border-radius:100%;
+    left:400px;
+    top:800px;
+    position: absolute;
+  
+}
+.bb {
+width:70px;
+height:70px;
+background:rgb(223, 92, 92);
+border-radius:100%;
+left:500px;
+top:730px;
+position: absolute;
+animation-duration: 3s;
+animation-name: f;
+animation-iteration-count: infinite;
+}
+.bc {
+    width:20px;
+    height:60px;
+    background:rgb(223, 92, 92);
+    border-bottom-left-radius:100px;
+  border-top-left-radius: 100px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-name: g;
+    animation-iteration-count: infinite;
+    left:500px;
+    top:850px;
+   
+}
+#la {
+    position: absolute;
+    left:400px;
+    top:740px;
+    animation-duration: 3s;
+    animation-name: at;
+    animation-iteration-count: infinite;
+
+}
+#laa {
+    position: absolute;
+    left:400px;
+    top:750px;
+    animation-duration: 3s;
+    animation-name: b;
+    animation-iteration-count: infinite;
+}
+.s {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:300px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: a;
+    animation-duration: 3s;
+}
+@keyframes a {
+    0% {
+        background:white;
+    }
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+.sa {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:400px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: aa;
+    animation-duration: 3s;
+}
+@keyframes aa {
+    0% {
+        background:white;
+    }
+    10% { 
+        background:white;
+    }
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+.sb {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:500px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: ab;
+    animation-duration: 3s;
+}
+@keyframes ab {
+    0% {
+        background:white;
+    }
+    20% {
+    background:white;
+}
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+.sc {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:600px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: ac;
+    animation-duration: 3s;
+}
+@keyframes ac {
+    0% {
+        background:white;
+    }
+    30% {
+        background:white;
+    }
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+.sd {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:700px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: ad;
+    animation-duration: 3s;
+}
+@keyframes ad {
+    0% {
+        background:white;
+    }
+    40% {
+        background:white;
+    }
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+.se {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:800px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: ae;
+    animation-duration: 3s;
+}
+@keyframes ae {
+    0% {
+        background:white;
+    }
+    50% {
+        background:white;
+    }
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+.sf {
+    height: 40px;
+    width:80px;
+    background:white;
+    left:900px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: af;
+    animation-duration: 3s;
+}
+@keyframes af {
+    0% {
+        background:white;
+    }
+    60% {
+        background:white;
+    }
+    100% {
+        background:rgb(236, 94, 94);
+    }
+}
+
+H2.o {
+    left: 300px;
+    position: absolute;
+}
+H2.oa {
+    left: 350px;
+    position: absolute;
+}
+H2.ob {
+    left: 400px;
+    position: absolute;
+}
+H2.oc {
+    left: 450px;
+    position: absolute;
+}
+H2.od {
+    left: 500px;
+    position: absolute;
+}
+H2.oe {
+    left: 550px;
+    position: absolute;
+}
+H2.of {
+    left: 600px;
+    position: absolute;
+}
+H2.og {
+    left: 650px;
+    position: absolute;
+}
+H2.oh {
+    left: 700px;
+    position: absolute;
+}
+H2.oi {
+    left: 750px;
+    position: absolute;
+}
+H2.oj {
+    left: 800px;
+    position: absolute;
+}
+H2.ok {
+    left: 850px;
+    position: absolute;
+}
+H2.ol {
+    left: 900px;
+    position: absolute;
+}
+H2.om {
+    left: 950px;
+    position: absolute;
+}
+.ssa {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:300px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: aaa;
+    animation-duration: 3s;
+    display: inline;
+}
+@keyframes aaa {
+    0% {
+        background:white;
+    }
+    10% { 
+        background:white;
+    }
+    100% {
+        background:teal;
+    }
+}
+.ssb {
+    height: 40px;
+    width:60px;
+    background:white;
+    left:400px;
+    position:absolute;
+    animation-iteration-count: infinite;
+    animation-name: aaaa;
+    animation-duration: 3s;
+}
+@keyframes aaaa {
+    0% {
+        background:white;
+    }
+    20% {
+    background:white;
+}
+    100% {
+        background:teal;
+    }
+}
+.ssc {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:460px;
+    position:absolute;
+}
+.ssd {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:560px;
+    position:absolute;
+}
+.sse {
+    height: 40px;
+    width:100px;
+    background:white;
+    left:660px;
+    position:absolute;
+}
+.ssf {
+    height: 40px;
+    width:140px;
+    background:white;
+    left:760px;
+    position:absolute;
+
+}
+.ssg {
+    height: 40px;
+    width:75px;
+    background:white;
+    left:900px;
+    position:absolute;
+}
+
+
+H2.oo {
+    left: 300px;
+    position: absolute;
+}
+H2.tw {
+    left: 350px;
+    position: absolute;
+}
+H2.th {
+    left: 400px;
+    position: absolute;
+}
+H2.fo {
+    left: 450px;
+    position: absolute;
+}
+H2.fi {
+    left: 500px;
+    position: absolute;
+}
+H2.si {
+    left: 550px;
+    position: absolute;
+}
+H2.see {
+    left: 600px;
+    position: absolute;
+}
+H2.ei {
+    left: 650px;
+    position: absolute;
+}
+H2.ni {
+    left: 700px;
+    position: absolute;
+}
+H2.te {
+    left: 750px;
+    position: absolute;
+}
+H2.el {
+    left: 800px;
+    position: absolute;
+}
+H2.twe {
+    left: 850px;
+    position: absolute;
+}
+H2.thi {
+    left: 900px;
+    position: absolute;
+}
+H2.fou {
+    left: 950px;
+    position: absolute;
+}
+.circle {
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    background:conic-gradient(teal 0deg 7deg,white 7deg 360deg);
+    display: inline;
+    position: absolute;
+    left: 400px;
+    z-index: 1;
+}
+.circleo {
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    background:conic-gradient(rgb(255, 65, 65) 0deg 68deg,white 68deg 360deg);
+    left:700px;
+    position: absolute;
+    display: inline;
+}
+h2.co {
+    left: 750px;
+    top:1700px;
+    position:absolute;
+    z-index: 2;
+}
+h2.coo {
+    left: 480px;
+    top:1700px;
+    position:absolute;
+    z-index: 2;
+}

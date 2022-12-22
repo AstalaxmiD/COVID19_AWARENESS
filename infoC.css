@@ -1,0 +1,109 @@
+body {
+  /*  background: rgb(156,235,236);
+background: radial-gradient(circle, rgba(156,235,236,0.835171568627451) 0%, rgba(212,254,175,1) 100%);*/
+background-color: white;
+height: 2000px;
+}
+h1.hi{
+    color: orange;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2.hey { 
+    color:plum;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.slider {
+    overflow: hidden;
+    height: 300px;
+}
+.slider figure div {
+    float: left;
+    width:13%;
+}
+.slider figure img {
+    width: 70%;
+    float: left;
+}
+.slider figure {
+    position: relative;
+    width:200%;
+    left: 0;
+    animation: 20s a infinite;
+}
+
+@keyframes a {
+    0%{
+        left: 0%;
+
+    }
+    25% {
+        left: -50%;
+    }
+    50% {
+        left: -100%;
+    }
+    75% {
+        left: -150%;
+    }
+    100% {
+        left: -200%;
+    }
+    
+}
+h1.img{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+    color: rgb(255, 215, 35);
+}
+.q {
+    position: absolute;
+    left: 400px;
+}
+h1.origin{
+    color: orange;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+img.h {
+    position: absolute;
+    right:20px;
+    align-self: baseline;
+}
+
+.bat {
+    position: relative;
+    left:20px;
+    animation-iteration-count: infinite;
+    animation-name: bats;
+    animation-duration: 10s;
+    
+   
+
+
+}
+@keyframes bats {
+    0% {
+        left:20px;
+    }
+    50% {
+        left:400px;
+    }
+    100% {
+        left:980px;
+    }
+} 
+h2.info {
+    font-family: cursive;
+    align-self: center;
+    color:rgb(138, 222, 135);
+    position: absolute;
+    top: 1800px;
+}
+h2.china {
+    font-family: cursive;
+}
