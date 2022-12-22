@@ -98,7 +98,7 @@ img.sixx {
     }
 } 
 .b {
-    position: relative;
+    position: absolute;
     left:20px;
     padding:2px;
     bottom:500px;
