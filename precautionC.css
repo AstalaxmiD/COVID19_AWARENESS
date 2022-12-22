@@ -109,19 +109,19 @@ img.sixx {
 }*/
 @keyframes ti {
     0% {
-        top:500px;
+        
         left:20px;
     }
     50% {
-        top:500px;
+      
         left:500px
     }
     70% {
-        top:500px;
+       
         left:800px;
     }
     100% {
-        top:500px;
+       
         left:1000px;
     }
 }
